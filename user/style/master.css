@@ -1,0 +1,10 @@
+﻿body {
+
+}
+#menu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 10%;
+    background-color: #0094ff;
+}

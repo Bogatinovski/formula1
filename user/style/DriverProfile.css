@@ -1,0 +1,27 @@
+﻿body {
+}
+#goren-del{
+    height: auto;
+    overflow: auto;
+}
+.column-30{
+    width: 30%;
+    margin-right: 5%;
+    float: left;
+}
+h4{
+    font-weight: bold;
+    text-align: center;
+}
+.column-50{
+    width: 46%;
+    margin-right: 4%;
+    float: left;
+}
+#tabela-rabotnaistorija, #tabela-rabotnaistorija th{
+    border: #000 solid 1px;    
+}
+table tr td:nth-child(1){
+    text-align: right;
+    width: 50%;
+}

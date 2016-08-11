@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="style/master.css" type="text/css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            <ol id="menu">
+                <li class="menu-item"><img src="" width="100%" height="100%" /></li>
+                <li class="menu-item"><img src="" width="100%" height="100%" /></li>
+                <li class="menu-item"><img src="" width="100%" height="100%" /></li>
+                <li class="menu-item"><img src="" width="100%" height="100%" /></li>
+                <li class="menu-item"><img src="" width="100%" height="100%" /></li>
+            </ol>
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
